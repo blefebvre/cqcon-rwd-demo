@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Dialog"
+    title="Merchant item"
+    xtype="panel">
+    <items jcr:primaryType="cq:WidgetCollection">
+        <name
+            jcr:primaryType="nt:unstructured"
+            fieldLabel="Name"
+            name="./name"
+            xtype="textfield"/>
+        <description
+            jcr:primaryType="nt:unstructured"
+            fieldLabel="Description"
+            name="./description"
+            xtype="textfield"/>
+        <href
+            jcr:primaryType="nt:unstructured"
+            fieldLabel="Link URL"
+            name="./href"
+            xtype="textfield"/>
+    </items>
+</jcr:root>

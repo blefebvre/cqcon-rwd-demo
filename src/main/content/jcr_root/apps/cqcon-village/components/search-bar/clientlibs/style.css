@@ -1,0 +1,28 @@
+.search-bar {
+	height: 50px;
+	line-height: 50px;
+	text-align: center;
+	font-weight: bold;
+	font-size: 1.13em;
+	color: #FFF;
+	box-shadow: 0 6px 8px -4px #888;
+}
+
+.search-bar-background {
+	margin-left: -20px;
+	margin-right: -20px;
+	border-width: 10px 10px 0 10px;
+	-webkit-border-image: url(/etc/designs/cqcon-village/clientlibs/img/search-borders.png) 10 10 0 10 repeat stretch;
+	-moz-border-image: url(/etc/designs/cqcon-village/clientlibs/img/search-borders.png) 10 10 0 10 repeat stretch;
+	border-image: url(/etc/designs/cqcon-village/clientlibs/img/search-borders.png) 10 10 0 10 fill repeat stretch;
+	border-style: solid;
+}
+
+.search-bar .pure-button {
+	border-radius: 8px;
+	padding: 0.3em 0.5em;
+}
+
+.search-bar input {
+	border-radius: 5px;
+}

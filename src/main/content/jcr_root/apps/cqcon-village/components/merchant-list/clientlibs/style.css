@@ -1,0 +1,20 @@
+.merchant-list {
+	background-image: url(/etc/designs/cqcon-village/clientlibs/img/search-bg.gif);
+	background-repeat: no-repeat;
+	margin-top: 25px;
+}
+
+.merchant-list p {
+	font-family: Cambria, Georgia, 'Times New Roman', Times, serif;
+	font-size: 0.8125em; /* 13/16 = .8125 */
+	color: #4c4c4c;
+	margin-bottom: 1em;
+}
+
+.merchant-list h2 {
+	font-family: bree-serif, Georgia, 'Times New Roman', Times, serif;
+	color: #aaa;
+	font-weight: bold;
+	font-size: 1.375em; /* 22/16 =  */
+	margin: 0.5em 0;
+}

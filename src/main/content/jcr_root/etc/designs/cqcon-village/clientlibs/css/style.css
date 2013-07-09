@@ -1,0 +1,139 @@
+body {
+	font-family: Cambria, Georgia, "Times New Roman", Times, serif;
+	background-color:  #fff;
+	background-repeat: repeat-x;
+	margin: 0px;
+	color: #333;
+
+	background-image: linear-gradient(top, rgb(255,255,255) 52%, rgb(247,255,254) 6%);
+	background-image: -o-linear-gradient(top, rgb(255,255,255) 52%, rgb(247,255,254) 6%);
+	background-image: -moz-linear-gradient(top, rgb(255,255,255) 52%, rgb(247,255,254) 6%);
+	background-image: -webkit-linear-gradient(top, rgb(255,255,255) 52%, rgb(247,255,254) 6%);
+	background-image: -ms-linear-gradient(top, rgb(255,255,255) 52%, rgb(247,255,254) 6%);
+
+	background-image: -webkit-gradient(
+		linear,
+		left top,
+		left bottom,
+		color-stop(0.52, rgb(255,255,255)),
+		color-stop(0.06, rgb(247,255,254))
+	);
+}
+
+div#content {
+	width: 960px;
+	/*max-width: 960px;*/
+	margin: 0 auto;
+	padding: 0;
+}
+
+img {
+	width: 100%;
+	max-width: 100%;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+div#main {
+	background-color: #fff;
+	padding: 0 10px;
+	font-family: nixie-one, serif;
+	line-height: 1.5em;
+}
+
+p {
+	margin-top: 0;
+	color: #000;
+}
+
+header {
+	background-position: 0px 90px;
+	background-repeat: no-repeat;
+}
+
+header a#logo-link {
+	display: block;
+	width: 130px;
+	margin: 0 auto;
+}
+
+header .header-right {
+	margin-top: 15px;
+	width: 33%;
+	float: right;
+	text-align: right;
+}
+
+header .pure-button {
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+	padding: 0.3em 0.5em;
+}
+
+nav {
+	font-family: Georgia, 'Times New Roman', Times, serif; /* removed bree-serif */
+	font-size: 1.5625em;
+}
+
+nav ul {
+	text-align: center;
+	padding: 0;
+	margin: 10px 0;
+	display: block;
+	vertical-align: baseline;
+}
+
+nav li {
+	display: inline-block;
+	text-align: center;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	padding: 5px 5px;
+}
+
+nav li.active {
+	background-color: #ddd;
+}
+
+nav li:hover {
+	background: #8BC53F
+}
+
+nav li a {
+	color: #333333;
+	text-decoration: none;
+	margin: 0 5px;
+	padding: 5px 10px;
+}
+
+nav li a:hover {
+	color: #FFFFFF;
+}
+
+h1 {
+	font-family: bree-serif, Georgia, 'Times New Roman', Times, serif;
+	font-weight: normal;
+	font-size: 2.6em;
+	margin: .5em 0 .5em 0;
+}
+
+.breadcrumb a {
+	text-decoration: none;
+	color: #5fa800;
+	font-size: 0.9375em; /* 15 / 16 = 0.9375 */
+}
+
+h3 {
+	color: #5fa800;
+	font-weight: bold;
+	font-size: 1.375em; /* 22 / 16 = 1.375 */
+}
+
+footer {
+	margin: 20px 0 40px 0;
+	height: 40px;
+	background-repeat: no-repeat;
+}

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workspaceFilter version="1.0">
+    <filter root="/apps/cqcon-village"/>
+    <filter root="/etc/designs/cqcon-village"/>
+    <filter root="/content/cqcon-village"/>
+    <filter root="/content/dam/cqcon-village"/>
+</workspaceFilter>

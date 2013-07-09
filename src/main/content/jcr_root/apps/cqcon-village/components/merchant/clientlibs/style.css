@@ -1,0 +1,26 @@
+.merchant-item img {
+	max-width: 100px;
+	padding-right: 5px;
+}
+
+.merchant-list .clear {
+	clear: both;
+}
+
+.merchant-list .merchant-item {
+	border-bottom: 1px dotted #999;
+	padding: 8px 0;
+	font-family: Cambria, Georgia, 'Times New Roman', Times, serif;
+}
+
+.merchant-item a {
+	max-width: 110px;
+	color: #5fa800;
+	font-size: 1.0625em; /* 17/16 = 1.0625 */
+	text-decoration: none;
+	font-weight: bold;
+}
+
+.merchant-item .details {
+	font-size: 0.875em; /* 14/16 = 0.875 */
+}

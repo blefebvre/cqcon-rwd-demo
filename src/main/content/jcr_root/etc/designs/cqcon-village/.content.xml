@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <clientlibs/>
+    <jcr:content
+        cq:lastModified="{Date}2013-06-03T15:59:54.784-04:00"
+        cq:lastModifiedBy="admin"
+        jcr:primaryType="nt:unstructured"
+        jcr:title="CQCON Village Design"
+        sling:resourceType="wcm/core/components/designer">
+        <page jcr:primaryType="nt:unstructured">
+            <par
+                jcr:lastModified="{Date}2013-06-03T15:59:54.780-04:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="foundation/components/parsys"
+                components="[/libs/foundation/components/adaptiveimage,/libs/foundation/components/image,/libs/foundation/components/list,/libs/foundation/components/text,/libs/foundation/components/textimage,/libs/foundation/components/title,/apps/geometrixx-media/components/section-header,group:CQCON Village]">
+                <section jcr:primaryType="nt:unstructured"/>
+            </par>
+        </page>
+    </jcr:content>
+</jcr:root>

@@ -1,0 +1,9 @@
+.pure-u-2-5 div {
+	text-align: center;
+}
+
+.pure-u-2-5 div img {
+	display: inline;
+	border: 10px solid #656565;
+	box-shadow: 2px 2px 2px #888;
+}
