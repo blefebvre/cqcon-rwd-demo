@@ -3,3 +3,60 @@
         width: 80%;
     }
 }
+
+@media only screen and (min-width: 34.5625em) { /* 553 / 16 */
+    header a#logo-link {
+        display: block;
+        width: 130px;
+        height: 138px;
+        margin: 0 auto;
+        background-image: url(../img/logo.png);
+        /* hide text */
+        text-indent: -9999px;
+        white-space: nowrap;
+    }
+
+    header {
+        background-position: 0px 90px;
+        background-repeat: no-repeat;
+        background-position-x: center;
+    }
+
+    #menu {
+	    display: none;
+	}
+
+    nav {
+        font-family: Georgia, 'Times New Roman', Times, serif; /* removed bree-serif */
+        font-size: 1.5625em;
+    }
+
+    nav ul {
+        text-align: center;
+        padding: 0;
+        margin: 10px 0;
+        display: block;
+        vertical-align: baseline;
+    }
+
+    nav li {
+        display: inline-block;
+        text-align: center;
+        -webkit-border-radius: 5px;
+        -moz-border-radius: 5px;
+        border-radius: 5px;
+        padding: 5px 5px;
+    }
+
+    nav li.active {
+        background-color: #ddd;
+    }
+
+    nav li:hover {
+        background: #8BC53F
+    }
+
+    nav li.login {
+        display: none;
+    }
+}

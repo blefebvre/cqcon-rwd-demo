@@ -32,17 +32,6 @@ p {
 	color: #000;
 }
 
-header {
-	background-position: 0px 90px;
-	background-repeat: no-repeat;
-}
-
-header a#logo-link {
-	display: block;
-	width: 130px;
-	margin: 0 auto;
-}
-
 header .header-right {
 	margin-top: 15px;
 	width: 33%;
@@ -55,36 +44,6 @@ header .pure-button {
 	-moz-border-radius: 10px;
 	border-radius: 10px;
 	padding: 0.3em 0.5em;
-}
-
-nav {
-	font-family: Georgia, 'Times New Roman', Times, serif; /* removed bree-serif */
-	font-size: 1.5625em;
-}
-
-nav ul {
-	text-align: center;
-	padding: 0;
-	margin: 10px 0;
-	display: block;
-	vertical-align: baseline;
-}
-
-nav li {
-	display: inline-block;
-	text-align: center;
-	-webkit-border-radius: 5px;
-	-moz-border-radius: 5px;
-	border-radius: 5px;
-	padding: 5px 5px;
-}
-
-nav li.active {
-	background-color: #ddd;
-}
-
-nav li:hover {
-	background: #8BC53F
 }
 
 nav li a {
@@ -137,4 +96,21 @@ body {
 		color-stop(0.52, rgb(255,255,255)),
 		color-stop(0.06, rgb(247,255,254))
 	);
+}
+
+/* flyout styles */
+.wrap {
+    position: relative;
+    -webkit-transition: all 0.3s ease-out;  
+    -moz-transition: all 0.3s ease-out;
+    -ms-transition: all 0.3s ease-out;
+    -o-transition: all 0.3s ease-out;
+    transition: all 0.3s ease-out;
+}
+.wrap.active {
+    left: 16em;
+}
+
+nav li a {
+    text-decoration: none;
 }

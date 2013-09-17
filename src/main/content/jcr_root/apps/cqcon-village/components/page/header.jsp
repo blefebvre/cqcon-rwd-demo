@@ -4,7 +4,11 @@
 		<a class="pure-button">Log in</a>
 	</div>
 
-	<a href="#" id="logo-link"><img src="/etc/designs/cqcon-village/clientlibs/img/logo.png" /></a>
+	<a href="#" id="logo-link">CQCON Village</a>
+
+	<a href="#menu" id="menu">
+	    &#9776;
+	</a>
 
 	<nav>
 		<ul>
@@ -14,6 +18,7 @@
 			<li><a href="#">health &amp; fitness</a></li>
 			<li><a href="#">live &amp; work</a></li>
 			<li><a href="#">contact</a></li>
+			<li class="login"><a href="#">log in/register</a></li>
 		</ul>
 	</nav>
 </header>

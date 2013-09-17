@@ -1,0 +1,70 @@
+/* Header text style */
+@media only screen and (max-width: 34.5625em) { /* 553 / 16 */
+    div.header-right {
+        display: none;
+    }
+
+    header {
+        box-shadow: none;
+        background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#424243), to(#292526));
+        background-image: -webkit-linear-gradient(top, #424243, #292526); 
+        background-image:    -moz-linear-gradient(top, #424243, #292526);
+        background-image:     -ms-linear-gradient(top, #424243, #292526);
+        background-image:      -o-linear-gradient(top, #424243, #292526);
+        height: 2.6em;
+        clear: both;
+        margin-bottom: .5em;
+    }
+
+    header a#logo-link {
+        display: block;
+        text-decoration: none;
+        text-align: center;
+        font-size: 2em;
+        float: right;
+        margin-right: .2em;
+    }
+
+    h1 {
+        font-size: 1.6em;
+    }
+
+    #menu {
+        text-decoration: none;
+        display: block;
+        float: left;
+        font-size: 1.75em;
+        margin-left: .2em;
+    }
+
+    header a:link,
+    header a:visited,
+    header a:hover,
+    header a:active {
+        color: #fff;
+    }
+
+    nav {
+        background: #808080;
+        clear: both;
+        overflow: hidden;
+    }
+    .js nav {
+        width: 16em;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        left: -16em;
+    }
+    nav ul {
+        margin: 0;
+        padding: 0;
+        border-top: 1px solid #808080;
+    }
+    nav li a {
+        display: block;
+        padding: 0.8em;
+        color: #fff;
+        border-bottom: 1px solid #fff;
+    }
+}

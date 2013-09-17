@@ -327,12 +327,14 @@ body.jsp
 
 #### move 'default' header styles to large-screen.css
 
-/etc/designs/cqcon-village/clientlibs/css/style.css (line 55)
+/etc/designs/cqcon-village/clientlibs/css/style.css (line 49)
 	
 from:
 	nav { ... }
 to:
 	nav li a:hover { ... }
+
+paste in: /etc/designs/cqcon-village/clientlibs/css/large-screen.css (line 29)
 
 
 #### add flyout styles for small screens
@@ -367,13 +369,13 @@ to:
 #### add log in/register link to menu items
 - leaving no functionality behind
 
-/apps/cqcon-village/components/page/header.jsp (line 23)
+/apps/cqcon-village/components/page/header.jsp (line 21)
 
 	<li class="login"><a href="#">log in/register</a></li>
 
 - hide in large screen
 
-/etc/designs/cqcon-village/clientlibs/css/large-screen.css (line 74)
+/etc/designs/cqcon-village/clientlibs/css/large-screen.css (line 59)
 
 	nav li.login {
 		display: none;
