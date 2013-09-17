@@ -14,6 +14,10 @@ CQCON Village RWD Overhaul
 
 ## Begin
 
+Open up http://localhost:4502/content/cqcon-village/en/eatanddrink.html in your favourite browser. 
+
+I often open it up in the iOS Simulator as well (with wcmmode=disabled): http://localhost:4502/content/cqcon-village/en/eatanddrink.html?wcmmode=disabled
+
 #### remove fixed width
 
 /etc/designs/cqcon-village/clientlibs/css/style.css (line 11)
