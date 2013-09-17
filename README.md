@@ -61,7 +61,7 @@ CQCON Village RWD Overhaul
 
 #### merchants to 1 column when < certain width
 - Notes:
-	- surround 2 merchant item columns
+	- add 'merchant-col' class to pure unit divs
 	- create breakpoint relative to content
 	- remove # from both merchant-col's
 
