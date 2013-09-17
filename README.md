@@ -169,7 +169,7 @@ CQCON Village RWD Overhaul
 /apps/cqcon-village/components/page/header.jsp
 
 replace:
-	<img ... />
+	&lt;img ... />
 with
 	CQCON Village
 
