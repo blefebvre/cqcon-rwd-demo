@@ -61,18 +61,8 @@ CQCON Village RWD Overhaul
 
 #### merchants to 1 column when < certain width
 - Notes:
-	- add 'merchant-col' class to pure unit divs
 	- create breakpoint relative to content
 	- remove # from both merchant-col's
-
-/apps/cqcon-village/components/merchant-list/merchant-list.jsp (line 18)
-
-	<div class="pure-u-2-3">
-		<div class="pure-g">
-			<div class="pure-u-1-2 merchant-col">
-				...
-			<div class="pure-u-1-2 merchant-col">
-
 
 - Set small screen styles in merchant-list 
 
