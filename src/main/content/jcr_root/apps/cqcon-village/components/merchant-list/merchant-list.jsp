@@ -17,15 +17,11 @@
 	</div>
 	<div class="pure-u-2-3">
 	    <div class="pure-g">
-			<div class="pure-u-1-2">
-				<div class="merchant-col-1">
-					<cq:include path="merchant-col-1" resourceType="foundation/components/parsys" />
-				</div>
+			<div class="pure-u-1-2 merchant-col">
+				<cq:include path="merchant-col-1" resourceType="foundation/components/parsys" />
 			</div>
-			<div class="pure-u-1-2">
-				<div class="merchant-col-2">
-					<cq:include path="merchant-col-2" resourceType="foundation/components/parsys" />
-				</div>
+			<div class="pure-u-1-2 merchant-col">
+				<cq:include path="merchant-col-2" resourceType="foundation/components/parsys" />
 			</div>
 		</div>
 	</div>
