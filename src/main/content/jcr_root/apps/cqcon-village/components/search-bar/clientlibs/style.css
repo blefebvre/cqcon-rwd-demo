@@ -9,13 +9,11 @@
 }
 
 .search-bar-background {
-	margin-left: -20px;
-	margin-right: -20px;
-	border-width: 10px 10px 0 10px;
-	-webkit-border-image: url(/etc/designs/cqcon-village/clientlibs/img/search-borders.png) 10 10 0 10 repeat stretch;
-	-moz-border-image: url(/etc/designs/cqcon-village/clientlibs/img/search-borders.png) 10 10 0 10 repeat stretch;
-	border-image: url(/etc/designs/cqcon-village/clientlibs/img/search-borders.png) 10 10 0 10 fill repeat stretch;
-	border-style: solid;
+    background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#424243), to(#292526));
+    background-image: -webkit-linear-gradient(top, #424243, #292526); 
+    background-image:    -moz-linear-gradient(top, #424243, #292526);
+    background-image:     -ms-linear-gradient(top, #424243, #292526);
+    background-image:      -o-linear-gradient(top, #424243, #292526);
 }
 
 .search-bar .pure-button {
@@ -25,4 +23,8 @@
 
 .search-bar input {
 	border-radius: 5px;
+}
+
+.search-bar label, .search-bar button {
+    display: none;
 }

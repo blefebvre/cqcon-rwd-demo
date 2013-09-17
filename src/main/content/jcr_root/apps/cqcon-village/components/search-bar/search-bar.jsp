@@ -5,7 +5,7 @@
 <div class="search-bar-background">
 	<div class="search-bar">
 		<label><%= xssAPI.encodeForHTML(prompt) %></label>
-		<input type="text" class="search-field" />
+		<input type="text" class="search-field" placeholder="Search..."/>
 		<button class="pure-button">search</button>
 	</div>
 </div>

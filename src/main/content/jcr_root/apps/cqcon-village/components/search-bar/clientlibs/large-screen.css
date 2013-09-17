@@ -1,0 +1,19 @@
+@media only screen and (min-width: 48em) { /* 768 / 16 */
+	.search-bar-background {
+        background-image: none;
+        margin-left: -20px;
+        margin-right: -20px;
+        border-width: 10px 10px 0 10px;
+        -webkit-border-image: url(/etc/designs/cqcon-village/clientlibs/img/search-borders.png) 10 10 0 10 repeat stretch;
+        -moz-border-image: url(/etc/designs/cqcon-village/clientlibs/img/search-borders.png) 10 10 0 10 repeat stretch;
+        border-image: url(/etc/designs/cqcon-village/clientlibs/img/search-borders.png) 10 10 0 10 fill repeat stretch;
+        border-style: solid;
+    }
+
+	.search-bar label {
+	    display: inline;
+	}
+	.search-bar button {
+	    display: inline-block;
+	}
+}
