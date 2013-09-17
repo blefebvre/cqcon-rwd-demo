@@ -1,7 +1,7 @@
 <header>
 
 	<div class="header-right">
-		<a class="pure-button">Log in/Register</a>
+		<a class="pure-button">Log in</a>
 	</div>
 
 	<a href="#" id="logo-link"><img src="/etc/designs/cqcon-village/clientlibs/img/logo.png" /></a>
