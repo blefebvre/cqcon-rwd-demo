@@ -3,7 +3,7 @@
     jcr:primaryType="cq:Page">
     <jcr:content
         cq:designPath="/etc/designs/cqcon-village"
-        cq:lastModified="{Date}2013-09-16T17:32:44.513-04:00"
+        cq:lastModified="{Date}2013-09-17T14:18:06.286-04:00"
         cq:lastModifiedBy="admin"
         cq:template="/apps/cqcon-village/templates/page"
         jcr:primaryType="cq:PageContent"
@@ -51,14 +51,14 @@
                 <par40
                     jcr:primaryType="nt:unstructured"
                     sling:resourceType="foundation/components/parsys">
-                    <image
-                        jcr:created="{Date}2013-06-03T14:19:46.805-04:00"
+                    <adaptiveimage
+                        jcr:created="{Date}2013-09-17T14:17:52.916-04:00"
                         jcr:createdBy="admin"
-                        jcr:lastModified="{Date}2013-09-16T17:32:44.508-04:00"
+                        jcr:lastModified="{Date}2013-09-17T14:18:06.281-04:00"
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
-                        sling:resourceType="foundation/components/image"
-                        fileReference="/content/dam/geometrixx/travel/plane_3.jpg"/>
+                        sling:resourceType="foundation/components/adaptiveimage"
+                        fileReference="/content/dam/cqcon-village/basel_sunset.jpg"/>
                     <section_header
                         jcr:created="{Date}2013-06-03T16:00:08.276-04:00"
                         jcr:createdBy="admin"
