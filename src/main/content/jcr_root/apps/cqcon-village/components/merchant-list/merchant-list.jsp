@@ -1,6 +1,6 @@
 <%@page session="false"%>
 <%@include file="/libs/foundation/global.jsp"%><cq:includeClientLib categories="apps.cqcon-village.merchant-list"/>
-<div class="pure-g merchant-list">
+<div class="pure-g-r merchant-list">
 	<div class="pure-u-1-3">
 		<div class="filter-col">
 			<h2>filter list</h2>

@@ -1,0 +1,5 @@
+@media only screen and (min-width: 68.75em) { /* 1100 / 16 */
+    div#content {
+        width: 80%;
+    }
+}
